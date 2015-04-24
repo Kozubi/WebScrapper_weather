@@ -1,11 +1,12 @@
-# works with python 3.4!!! because of nasty unicode problem on 2.7 =(, thx to ° sign :)
+# works with python 3.4!!! because of nasty unicode problem on 2.7 =(, thx to degree ° sign :)
+# this was done using Polish lang version of web site
 # please DONT SPAM OPENING WEB PAGE ON ACCUWEATHER (beacuse I like them) !!!! you can just read page once and then develop everything!!!
 from bs4 import BeautifulSoup as bs
 #import urllib2
 import time
 import urllib.request
 import datetime
-#fileAccu = "storage/emulated/0/pogAccu.txt" #additional path for ANdroid device if you want to run QPython
+#fileAccu = "storage/emulated/0/pogAccu.txt" #additional path for Android device if you want to run QPython
 fileAccu = 'weathergAccu.txt' #here everything will be stored
 
 def start(): #this function connects with given web address
